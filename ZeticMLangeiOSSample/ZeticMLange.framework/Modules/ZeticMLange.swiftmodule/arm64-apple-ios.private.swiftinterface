@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -cxx-interoperability-mode=default -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZeticMLange
+import CoreML
+import Darwin
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class ZeticMLangeModelNativeWrapper {
+  @objc deinit
+}
+public class ZeticMLangeModel {
+  public init(_ modelKey: Swift.String) throws
+  public func run(_ inputs: [Foundation.Data]) throws
+  public func getOutputDataArray() -> [Foundation.Data]
+  @objc deinit
+}
+public enum ZeticMLangeTarget : Swift.Int, Swift.CaseIterable {
+  case ZETIC_MLANGE_TARGET_TORCH
+  case ZETIC_MLANGE_TARGET_TFLITE
+  case ZETIC_MLANGE_TARGET_ORT
+  case ZETIC_MLANGE_TARGET_ORT_NNAPI
+  case ZETIC_MLANGE_TARGET_QNN
+  case ZETIC_MLANGE_TARGET_QNN_QUANT
+  case ZETIC_MLANGE_TARGET_COREML
+  case ZETIC_MLANGE_TARGET_COREML_FP32
+  case ZETIC_MLANGE_TARGET_NEUROPILOT
+  case ZETIC_MLANGE_TARGET_NEUROPILOT_QUANT
+  case ZETIC_MLANGE_TARGET_EXYNOS
+  case ZETIC_MLANGE_TARGET_EXYNOS_QUANT
+  case ZETIC_MLANGE_TARGET_KIRIN
+  case ZETIC_MLANGE_TARGET_KIRIN_QUANT
+  case ZETIC_MLANGE_TARGET_GGML
+  case ZETIC_MLANGE_TARGET_GGML_QUANT
+  case ZETIC_MLANGE_TARGET_NUM_MODELS
+  case ZETIC_MLANGE_TARGET_NUM_SLOTS
+  case ZETIC_MLANGE_TARGET_FAIL
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ZeticMLange.ZeticMLangeTarget]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [ZeticMLange.ZeticMLangeTarget] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol ZeticMLangeTargetModel {
+  init(_ modelKey: Swift.String, _ modelPath: Foundation.URL)
+  func run(_ input: [Foundation.Data]) throws
+  func getOutputDataArray() -> [Foundation.Data]
+}
+public class ZeticMLangeCoreMLModel : ZeticMLange.ZeticMLangeTargetModel {
+  required public init(_ key: Swift.String, _ targetModelPath: Foundation.URL)
+  public func run(_ input: [Foundation.Data]) throws
+  public func getOutputDataArray() -> [Foundation.Data]
+  @objc deinit
+}
+public class ZeticMLangeFeatureProvider : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String>
+  public init(featureNames: [Swift.String], input: [Foundation.Data], description: CoreML.MLModelDescription)
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ZeticMLangeFileUtils {
+  public static func fetchTargetModel(modelKey: Swift.String, target: ZeticMLange.ZeticMLangeTarget) throws -> Foundation.URL
+  public static func fetchModel(modelKey: Swift.String) throws -> Foundation.URL
+  public static func fetchResponse(from url: Foundation.URL, authorization: Swift.String) throws -> [Swift.String : Any]
+  public static func downloadFileSync(from url: Foundation.URL, directory: Swift.String) throws -> Foundation.URL
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func downloadFile(from url: Foundation.URL, directory: Swift.String) async throws -> Foundation.URL
+  #endif
+  @objc deinit
+}
+extension ZeticMLange.ZeticMLangeTarget : Swift.Equatable {}
+extension ZeticMLange.ZeticMLangeTarget : Swift.Hashable {}
+extension ZeticMLange.ZeticMLangeTarget : Swift.RawRepresentable {}

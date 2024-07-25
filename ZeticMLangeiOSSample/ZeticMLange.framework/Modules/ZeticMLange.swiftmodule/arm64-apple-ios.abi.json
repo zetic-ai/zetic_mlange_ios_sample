@@ -1,0 +1,2265 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeModelNativeWrapper",
+        "printedName": "ZeticMLangeModelNativeWrapper",
+        "declKind": "Class",
+        "usr": "s:11ZeticMLange0aB18ModelNativeWrapperC",
+        "mangledName": "$s11ZeticMLange0aB18ModelNativeWrapperC",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeModel",
+        "printedName": "ZeticMLangeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZeticMLangeModel",
+                "printedName": "ZeticMLange.ZeticMLangeModel",
+                "usr": "s:11ZeticMLange0aB5ModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ZeticMLange0aB5ModelCyACSSKcfc",
+            "mangledName": "$s11ZeticMLange0aB5ModelCyACSSKcfc",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB5ModelC3runyySay10Foundation4DataVGKF",
+            "mangledName": "$s11ZeticMLange0aB5ModelC3runyySay10Foundation4DataVGKF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOutputDataArray",
+            "printedName": "getOutputDataArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB5ModelC18getOutputDataArraySay10Foundation0F0VGyF",
+            "mangledName": "$s11ZeticMLange0aB5ModelC18getOutputDataArraySay10Foundation0F0VGyF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ZeticMLange0aB5ModelC",
+        "mangledName": "$s11ZeticMLange0aB5ModelC",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeTarget",
+        "printedName": "ZeticMLangeTarget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_TORCH",
+            "printedName": "ZETIC_MLANGE_TARGET_TORCH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO25ZETIC_MLANGE_TARGET_TORCHyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO25ZETIC_MLANGE_TARGET_TORCHyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_TFLITE",
+            "printedName": "ZETIC_MLANGE_TARGET_TFLITE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_TFLITEyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_TFLITEyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_ORT",
+            "printedName": "ZETIC_MLANGE_TARGET_ORT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO23ZETIC_MLANGE_TARGET_ORTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO23ZETIC_MLANGE_TARGET_ORTyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_ORT_NNAPI",
+            "printedName": "ZETIC_MLANGE_TARGET_ORT_NNAPI",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_ORT_NNAPIyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_ORT_NNAPIyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_QNN",
+            "printedName": "ZETIC_MLANGE_TARGET_QNN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO23ZETIC_MLANGE_TARGET_QNNyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO23ZETIC_MLANGE_TARGET_QNNyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_QNN_QUANT",
+            "printedName": "ZETIC_MLANGE_TARGET_QNN_QUANT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_QNN_QUANTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_QNN_QUANTyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_COREML",
+            "printedName": "ZETIC_MLANGE_TARGET_COREML",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_COREMLyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_COREMLyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_COREML_FP32",
+            "printedName": "ZETIC_MLANGE_TARGET_COREML_FP32",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO31ZETIC_MLANGE_TARGET_COREML_FP32yA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO31ZETIC_MLANGE_TARGET_COREML_FP32yA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_NEUROPILOT",
+            "printedName": "ZETIC_MLANGE_TARGET_NEUROPILOT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_NEUROPILOTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_NEUROPILOTyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_NEUROPILOT_QUANT",
+            "printedName": "ZETIC_MLANGE_TARGET_NEUROPILOT_QUANT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO36ZETIC_MLANGE_TARGET_NEUROPILOT_QUANTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO36ZETIC_MLANGE_TARGET_NEUROPILOT_QUANTyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_EXYNOS",
+            "printedName": "ZETIC_MLANGE_TARGET_EXYNOS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_EXYNOSyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO26ZETIC_MLANGE_TARGET_EXYNOSyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_EXYNOS_QUANT",
+            "printedName": "ZETIC_MLANGE_TARGET_EXYNOS_QUANT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO32ZETIC_MLANGE_TARGET_EXYNOS_QUANTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO32ZETIC_MLANGE_TARGET_EXYNOS_QUANTyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_KIRIN",
+            "printedName": "ZETIC_MLANGE_TARGET_KIRIN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO25ZETIC_MLANGE_TARGET_KIRINyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO25ZETIC_MLANGE_TARGET_KIRINyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_KIRIN_QUANT",
+            "printedName": "ZETIC_MLANGE_TARGET_KIRIN_QUANT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO31ZETIC_MLANGE_TARGET_KIRIN_QUANTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO31ZETIC_MLANGE_TARGET_KIRIN_QUANTyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_GGML",
+            "printedName": "ZETIC_MLANGE_TARGET_GGML",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO24ZETIC_MLANGE_TARGET_GGMLyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO24ZETIC_MLANGE_TARGET_GGMLyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_GGML_QUANT",
+            "printedName": "ZETIC_MLANGE_TARGET_GGML_QUANT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_GGML_QUANTyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_GGML_QUANTyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_NUM_MODELS",
+            "printedName": "ZETIC_MLANGE_TARGET_NUM_MODELS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_NUM_MODELSyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO30ZETIC_MLANGE_TARGET_NUM_MODELSyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_NUM_SLOTS",
+            "printedName": "ZETIC_MLANGE_TARGET_NUM_SLOTS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_NUM_SLOTSyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO29ZETIC_MLANGE_TARGET_NUM_SLOTSyA2CmF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ZETIC_MLANGE_TARGET_FAIL",
+            "printedName": "ZETIC_MLANGE_TARGET_FAIL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZeticMLange.ZeticMLangeTarget.Type) -> ZeticMLange.ZeticMLangeTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11ZeticMLange0aB6TargetO24ZETIC_MLANGE_TARGET_FAILyA2CmF",
+            "mangledName": "$s11ZeticMLange0aB6TargetO24ZETIC_MLANGE_TARGET_FAILyA2CmF",
+            "moduleName": "ZeticMLange"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZeticMLange.ZeticMLangeTarget?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ZeticMLange0aB6TargetO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11ZeticMLange0aB6TargetO8rawValueACSgSi_tcfc",
+            "moduleName": "ZeticMLange",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ZeticMLange0aB6TargetO8rawValueSivp",
+            "mangledName": "$s11ZeticMLange0aB6TargetO8rawValueSivp",
+            "moduleName": "ZeticMLange",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ZeticMLange0aB6TargetO8rawValueSivg",
+                "mangledName": "$s11ZeticMLange0aB6TargetO8rawValueSivg",
+                "moduleName": "ZeticMLange",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ZeticMLange.ZeticMLangeTarget]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZeticMLangeTarget",
+                    "printedName": "ZeticMLange.ZeticMLangeTarget",
+                    "usr": "s:11ZeticMLange0aB6TargetO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ZeticMLange0aB6TargetO8allCasesSayACGvpZ",
+            "mangledName": "$s11ZeticMLange0aB6TargetO8allCasesSayACGvpZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZeticMLange.ZeticMLangeTarget]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ZeticMLange0aB6TargetO8allCasesSayACGvgZ",
+                "mangledName": "$s11ZeticMLange0aB6TargetO8allCasesSayACGvgZ",
+                "moduleName": "ZeticMLange",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11ZeticMLange0aB6TargetO",
+        "mangledName": "$s11ZeticMLange0aB6TargetO",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZeticMLange.ZeticMLangeTarget]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZeticMLangeTarget",
+                        "printedName": "ZeticMLange.ZeticMLangeTarget",
+                        "usr": "s:11ZeticMLange0aB6TargetO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeTargetModel",
+        "printedName": "ZeticMLangeTargetModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ZeticMLange0aB11TargetModelPyxSS_10Foundation3URLVtcfc",
+            "mangledName": "$s11ZeticMLange0aB11TargetModelPyxSS_10Foundation3URLVtcfc",
+            "moduleName": "ZeticMLange",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZeticMLange.ZeticMLangeTargetModel>",
+            "sugared_genericSig": "<Self where Self : ZeticMLange.ZeticMLangeTargetModel>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB11TargetModelP3runyySay10Foundation4DataVGKF",
+            "mangledName": "$s11ZeticMLange0aB11TargetModelP3runyySay10Foundation4DataVGKF",
+            "moduleName": "ZeticMLange",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZeticMLange.ZeticMLangeTargetModel>",
+            "sugared_genericSig": "<Self where Self : ZeticMLange.ZeticMLangeTargetModel>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOutputDataArray",
+            "printedName": "getOutputDataArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB11TargetModelP18getOutputDataArraySay10Foundation0G0VGyF",
+            "mangledName": "$s11ZeticMLange0aB11TargetModelP18getOutputDataArraySay10Foundation0G0VGyF",
+            "moduleName": "ZeticMLange",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZeticMLange.ZeticMLangeTargetModel>",
+            "sugared_genericSig": "<Self where Self : ZeticMLange.ZeticMLangeTargetModel>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11ZeticMLange0aB11TargetModelP",
+        "mangledName": "$s11ZeticMLange0aB11TargetModelP",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeCoreMLModel",
+        "printedName": "ZeticMLangeCoreMLModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZeticMLangeCoreMLModel",
+                "printedName": "ZeticMLange.ZeticMLangeCoreMLModel",
+                "usr": "s:11ZeticMLange0aB11CoreMLModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ZeticMLange0aB11CoreMLModelCyACSS_10Foundation3URLVtcfc",
+            "mangledName": "$s11ZeticMLange0aB11CoreMLModelCyACSS_10Foundation3URLVtcfc",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB11CoreMLModelC3runyySay10Foundation4DataVGKF",
+            "mangledName": "$s11ZeticMLange0aB11CoreMLModelC3runyySay10Foundation4DataVGKF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOutputDataArray",
+            "printedName": "getOutputDataArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB11CoreMLModelC18getOutputDataArraySay10Foundation0G0VGyF",
+            "mangledName": "$s11ZeticMLange0aB11CoreMLModelC18getOutputDataArraySay10Foundation0G0VGyF",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ZeticMLange0aB11CoreMLModelC",
+        "mangledName": "$s11ZeticMLange0aB11CoreMLModelC",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ZeticMLangeTargetModel",
+            "printedName": "ZeticMLangeTargetModel",
+            "usr": "s:11ZeticMLange0aB11TargetModelP",
+            "mangledName": "$s11ZeticMLange0aB11TargetModelP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeFeatureProvider",
+        "printedName": "ZeticMLangeFeatureProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "featureNames",
+            "printedName": "featureNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvp",
+            "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvp",
+            "moduleName": "ZeticMLange",
+            "objc_name": "featureNames",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvg",
+                "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvg",
+                "moduleName": "ZeticMLange",
+                "implicit": true,
+                "objc_name": "featureNames",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvs",
+                "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvs",
+                "moduleName": "ZeticMLange",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvM",
+                "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureNamesShySSGvM",
+                "moduleName": "ZeticMLange",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(featureNames:input:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZeticMLangeFeatureProvider",
+                "printedName": "ZeticMLange.ZeticMLangeFeatureProvider",
+                "usr": "s:11ZeticMLange0aB15FeatureProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelDescription",
+                "printedName": "CoreML.MLModelDescription",
+                "usr": "c:objc(cs)MLModelDescription"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureNames5input11descriptionACSaySSG_Say10Foundation4DataVGSo18MLModelDescriptionCtcfc",
+            "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureNames5input11descriptionACSaySSG_Say10Foundation4DataVGSo18MLModelDescriptionCtcfc",
+            "moduleName": "ZeticMLange",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "featureValue",
+            "printedName": "featureValue(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLFeatureValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLFeatureValue",
+                    "printedName": "CoreML.MLFeatureValue",
+                    "usr": "c:objc(cs)MLFeatureValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB15FeatureProviderC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "mangledName": "$s11ZeticMLange0aB15FeatureProviderC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "moduleName": "ZeticMLange",
+            "objc_name": "featureValueForName:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ZeticMLange0aB15FeatureProviderC",
+        "mangledName": "$s11ZeticMLange0aB15FeatureProviderC",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZeticMLangeFileUtils",
+        "printedName": "ZeticMLangeFileUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchTargetModel",
+            "printedName": "fetchTargetModel(modelKey:target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZeticMLangeTarget",
+                "printedName": "ZeticMLange.ZeticMLangeTarget",
+                "usr": "s:11ZeticMLange0aB6TargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB9FileUtilsC16fetchTargetModel8modelKey6target10Foundation3URLVSS_AA0abF0OtKFZ",
+            "mangledName": "$s11ZeticMLange0aB9FileUtilsC16fetchTargetModel8modelKey6target10Foundation3URLVSS_AA0abF0OtKFZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchModel",
+            "printedName": "fetchModel(modelKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB9FileUtilsC10fetchModel8modelKey10Foundation3URLVSS_tKFZ",
+            "mangledName": "$s11ZeticMLange0aB9FileUtilsC10fetchModel8modelKey10Foundation3URLVSS_tKFZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchResponse",
+            "printedName": "fetchResponse(from:authorization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB9FileUtilsC13fetchResponse4from13authorizationSDySSypG10Foundation3URLV_SStKFZ",
+            "mangledName": "$s11ZeticMLange0aB9FileUtilsC13fetchResponse4from13authorizationSDySSypG10Foundation3URLV_SStKFZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadFileSync",
+            "printedName": "downloadFileSync(from:directory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB9FileUtilsC08downloadC4Sync4from9directory10Foundation3URLVAI_SStKFZ",
+            "mangledName": "$s11ZeticMLange0aB9FileUtilsC08downloadC4Sync4from9directory10Foundation3URLVAI_SStKFZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadFile",
+            "printedName": "downloadFile(from:directory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ZeticMLange0aB9FileUtilsC08downloadC04from9directory10Foundation3URLVAI_SStYaKFZ",
+            "mangledName": "$s11ZeticMLange0aB9FileUtilsC08downloadC04from9directory10Foundation3URLVAI_SStYaKFZ",
+            "moduleName": "ZeticMLange",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ZeticMLange0aB9FileUtilsC",
+        "mangledName": "$s11ZeticMLange0aB9FileUtilsC",
+        "moduleName": "ZeticMLange",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "ZeticMLange"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 26,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 29,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 23,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 29,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 26,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 31,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 30,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 36,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 26,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 32,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 25,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 31,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 868,
+      "length": 24,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 30,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 30,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 24,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 26,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 29,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 23,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 29,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 26,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 31,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 30,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 36,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 26,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 32,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 25,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 31,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 868,
+      "length": 24,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 30,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 30,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 24,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 26,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 29,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 23,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 29,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 26,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 31,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 30,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 36,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 26,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 32,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 25,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 31,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 868,
+      "length": 24,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 30,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 30,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLange\/ZeticMLangeTarget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 24,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeCoreMLModel.swift",
+      "kind": "Array",
+      "offset": 191,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeFeatureProvider.swift",
+      "kind": "Array",
+      "offset": 138,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeFeatureProvider.swift",
+      "kind": "Dictionary",
+      "offset": 173,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeFeatureProvider.swift",
+      "kind": "Dictionary",
+      "offset": 227,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeFileUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"https:\/\/aws.zeticai.com\""
+    },
+    {
+      "filePath": "\/Users\/gimdoyeob\/workspace\/zetic_mlange_ios\/ZeticMLange\/ZeticMLange\/ZeticMLangeCoreML\/ZeticMLangeFileUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 3,
+      "value": "200"
+    }
+  ]
+}
